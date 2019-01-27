@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Merienda" rel="stylesheet">
+
+  <h1 id="title">SAMPLE SURVEY FORM</h1>
+   
+  <p id="description"><b>INSTRUCTIONS:</b> Complete this form in order to compete for a special prize!</p>
+    
+<form id="survey-form">
+  
+    <div class="row">
+        <label for="name" id="name-label">Name:</label>
+        <input type="input" id="name" placeholder="Enter your name..." required>
+      </div>
+    
+     <div class="row">
+        <label for="email" id="email-label">E-mail:</label>
+        <input type="email" id="email" placeholder="Enter your e-mail..." required>
+      </div>
+    
+     <div class="row">
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" placeholder="Age..." min="1" max="120" required>
+      </div>
+    
+      <div class="row">
+        <label for="dropdown" id="dropdown-label">Select the country of origin:</label>
+        <select id="dropdown">
+          <option>United States</option>
+          <option>Brazil</option>
+          <option>Argentina</option>
+          <option>Canada</option>
+        </select>
+      </div>
+    
+    <div class="row">
+      <label> Select your gender: </label>
+        <label for="gender" id="radio-label">Male</label>
+        <input type="radio" name="radio" value="male">
+        <label for="gender" id="radio-label">Female</label>
+      <input type="radio" name="radio" value="female">
+      </div>
+    
+    <div class="row">
+      <label> Select your prize of choice : </label>
+        <label for="prize" id="checkbox-label">IPhone</label>
+        <input type="checkbox" name="checkbox" value="iphone">
+        <label for="prize" id="checkbox-label">Desktop Computer</label>
+      <input type="checkbox" name="checkbox" value="desktop">
+      <label for="prize" id="checkbox-label">Playstation 4</label>
+      <input type="checkbox" name="checkbox" value="playstation">
+      <label for="prize" id="checkbox-label">Xbox One</label>
+      <input type="checkbox" name="checkbox" value="xbox">
+      <label for="prize" id="checkbox-label">Mac Book</label>
+      <input type="checkbox" name="checkbox" value="macbook">
+      </div>
+    
+    <div class="row">
+        <label for="comments" id="comments-label">Additional comments: </label>
+        <textarea id="comments"></textarea>
+      </div>
+    
+    <div class="row">
+        <button type="submit" id="submit" class="button"> Submit
+      </div>  
+</form>
+  
+  <p>Page developed by Gustavo Correa for Free Code Camp learning</p>
+  
+  
+
+</body>
+
+</html>
